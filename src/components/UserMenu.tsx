@@ -2214,18 +2214,6 @@ export const UserMenu: React.FC = () => {
                         1个
                       </button>
                       <button
-                        onClick={() => handleMaxConcurrentDownloadsChange(3)}
-                        className={`px-2 py-0.5 rounded ${maxConcurrentDownloads === 3 ? 'bg-green-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}`}
-                      >
-                        3个
-                      </button>
-                      <button
-                        onClick={() => handleMaxConcurrentDownloadsChange(6)}
-                        className={`px-2 py-0.5 rounded ${maxConcurrentDownloads === 6 ? 'bg-green-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}`}
-                      >
-                        6个
-                      </button>
-                      <button
                         onClick={() => handleMaxConcurrentDownloadsChange(10)}
                         className={`px-2 py-0.5 rounded ${maxConcurrentDownloads === 10 ? 'bg-green-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}`}
                       >
@@ -2272,24 +2260,6 @@ export const UserMenu: React.FC = () => {
                         className={`px-2 py-0.5 rounded ${downloadThreadsPerTask === 1 ? 'bg-green-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}`}
                       >
                         1个
-                      </button>
-                      <button
-                        onClick={() => handleDownloadThreadsPerTaskChange(4)}
-                        className={`px-2 py-0.5 rounded ${downloadThreadsPerTask === 4 ? 'bg-green-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}`}
-                      >
-                        4个
-                      </button>
-                      <button
-                        onClick={() => handleDownloadThreadsPerTaskChange(8)}
-                        className={`px-2 py-0.5 rounded ${downloadThreadsPerTask === 8 ? 'bg-green-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}`}
-                      >
-                        8个
-                      </button>
-                      <button
-                        onClick={() => handleDownloadThreadsPerTaskChange(16)}
-                        className={`px-2 py-0.5 rounded ${downloadThreadsPerTask === 16 ? 'bg-green-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}`}
-                      >
-                        16个
                       </button>
                       <button
                         onClick={() => handleDownloadThreadsPerTaskChange(32)}
